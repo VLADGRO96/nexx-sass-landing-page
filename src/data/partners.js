@@ -6,6 +6,7 @@ import partnerFive from "../assets/logos/5.png";
 import partnerSix from "../assets/logos/6.png";
 import partnerSeven from "../assets/logos/7.png";
 import partnerEight from "../assets/logos/8.png";
+import partnerNine from "../assets/logos/9.png";
 
 export const partnersLogo = [
 	{
