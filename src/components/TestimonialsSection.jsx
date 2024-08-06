@@ -1,4 +1,13 @@
 import TagLine from "./TagLine";
+import testimonialsImgOne from "../assets/testimonials/1.png";
+import testimonialsImgTwo from "../assets/testimonials/2.png";
+import testimonialsImgThree from "../assets/testimonials/3.png";
+import testimonialsImgFour from "../assets/testimonials/4.png";
+import testimonialsImgFive from "../assets/testimonials/5.png";
+import testimonialsImgSix from "../assets/testimonials/6.png";
+import testimonialsImgSeven from "../assets/testimonials/7.png";
+import testimonialsImgEight from "../assets/testimonials/8.png";
+import testimonialsImgNine from "../assets/testimonials/9.png";
 
 const TestimonialsSection = () => {
 	return (
@@ -11,7 +20,7 @@ const TestimonialsSection = () => {
 					<div className="border rounded-lg bg-white/20 backdrop-blur-lg p-6">
 						<div className="flex space-x-3 mb-4">
 							<img
-								src="../public/testimonials/1.png"
+								src={testimonialsImgOne}
 								className="w-12 h-12 rounded-full"
 								alt="User Image"
 							/>
@@ -28,7 +37,7 @@ const TestimonialsSection = () => {
 					<div className="border rounded-lg bg-white/20 backdrop-blur-lg p-6">
 						<div className="flex space-x-3 mb-4">
 							<img
-								src="/testimonials/3.png" 
+								src={testimonialsImgTwo}
 								className="w-12 h-12 rounded-full"
 								alt="User Image"
 							/>
@@ -43,7 +52,7 @@ const TestimonialsSection = () => {
 					<div className="border rounded-lg bg-white/20 backdrop-blur-lg p-6">
 						<div className="flex space-x-3 mb-4">
 							<img
-								src="/testimonials/2.png" 
+								src={testimonialsImgThree} 
 								className="w-12 h-12 rounded-full"
 								alt="User Image"
 							/>
@@ -63,7 +72,7 @@ const TestimonialsSection = () => {
 					<div className="border rounded-lg bg-white/20 backdrop-blur-lg p-6">
 						<div className="flex space-x-3 mb-4">
 							<img
-								src="/testimonials/4.png" 
+								src={testimonialsImgFour}
 								className="w-12 h-12 rounded-full"
 								alt="User Image"
 							/>
@@ -78,7 +87,7 @@ const TestimonialsSection = () => {
 					<div className="border rounded-lg bg-white/20 backdrop-blur-lg p-6">
 						<div className="flex space-x-3 mb-4">
 							<img
-								src="/testimonials/5.png" 
+								src={testimonialsImgFive}
 								className="w-12 h-12 rounded-full"
 								alt="User Image"
 							/>
@@ -94,7 +103,7 @@ const TestimonialsSection = () => {
 					<div className="border rounded-lg bg-white/20 backdrop-blur-lg p-6">
 						<div className="flex space-x-3 mb-4">
 							<img
-								src="/testimonials/6.png" 
+								src={testimonialsImgSix}
 								className="w-12 h-12 rounded-full"
 								alt="User Image"
 							/>
@@ -112,7 +121,7 @@ const TestimonialsSection = () => {
 					<div className="border rounded-lg bg-white/20 backdrop-blur-lg p-6">
 						<div className="flex space-x-3 mb-4">
 							<img
-								src="/testimonials/7.png" 
+								src={testimonialsImgSeven}
 								className="w-12 h-12 rounded-full"
 								alt="User Image"
 							/>
@@ -130,7 +139,7 @@ const TestimonialsSection = () => {
 					<div className="border rounded-lg bg-white/20 backdrop-blur-lg p-6">
 						<div className="flex space-x-3 mb-4">
 							<img
-								src="/testimonials/8.png" 
+								src={testimonialsImgEight}
 								className="w-12 h-12 rounded-full"
 								alt="User Image"
 							/>
@@ -145,7 +154,7 @@ const TestimonialsSection = () => {
 					<div className="border rounded-lg bg-white/20 backdrop-blur-lg p-6">
 						<div className="flex space-x-3 mb-4">
 							<img
-								src="/testimonials/9.png" 
+								src={testimonialsImgNine}
 								className="w-12 h-12 rounded-full"
 								alt="User Image"
 							/>
