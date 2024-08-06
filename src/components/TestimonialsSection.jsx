@@ -11,7 +11,7 @@ const TestimonialsSection = () => {
 					<div className="border rounded-lg bg-white/20 backdrop-blur-lg p-6">
 						<div className="flex space-x-3 mb-4">
 							<img
-								src="/testimonials/1.png" 
+								src="../../public/testimonials/1.png"
 								className="w-12 h-12 rounded-full"
 								alt="User Image"
 							/>
