@@ -1,48 +1,57 @@
+import partnerOne from "../assets/logos/1.png";
+import partnerTwo from "../assets/logos/2.png";
+import partnerThree from "../assets/logos/3.png";
+import partnerFour from "../assets/logos/4.png";
+import partnerFive from "../assets/logos/5.png";
+import partnerSix from "../assets/logos/6.png";
+import partnerSeven from "../assets/logos/7.png";
+import partnerEight from "../assets/logos/8.png";
+
 export const partnersLogo = [
 	{
 		id: 1,
 		name: "partner 1",
-		logo: "/logos/1.png",
+		logo: partnerOne,
 	},
 	{
 		id: 2,
 		name: "partner 2",
-		logo: "/logos/2.png",
+		logo: partnerTwo,
 	},
 	{
 		id: 3,
 		name: "partner 3",
-		logo: "/logos/3.png",
+		logo: partnerThree,
 	},
 	{
 		id: 4,
 		name: "partner 4",
-		logo: "/logos/4.png",
+		logo: partnerFour,
 	},
 	{
 		id: 5,
 		name: "partner 5",
-		logo: "/logos/5.png",
+		logo: partnerFive,
 	},
 	{
 		id: 6,
 		name: "partner 6",
-		logo: "/logos/6.png",
+		logo: partnerSix,
 	},
 	{
 		id: 7,
 		name: "partner 7",
-		logo: "/logos/7.png",
+		logo: partnerSeven,
 	},
 	{
 		id: 8,
 		name: "partner 8",
-		logo: "/logos/8.png",
+		logo: partnerEight,
 	},
 	{
 		id: 9,
 		name: "partner 9",
-		logo: "/logos/9.png",
+		logo: partnerNine,
 	}
 
 ]
